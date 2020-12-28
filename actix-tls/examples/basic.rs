@@ -30,7 +30,7 @@ use actix_service::pipeline_factory;
 use actix_tls::rustls::Acceptor as RustlsAcceptor;
 use futures_util::future::ok;
 use log::info;
-use rust_tls::{
+use rustls::{
     internal::pemfile::certs, internal::pemfile::rsa_private_keys, NoClientAuth, ServerConfig,
 };
 

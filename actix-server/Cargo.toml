@@ -20,10 +20,10 @@ path = "src/lib.rs"
 default = []
 
 [dependencies]
-actix-service = "1.0.6"
-actix-rt = "1.1.1"
-actix-codec = "0.3.0"
-actix-utils = "2.0.0"
+actix-service = "2.0.0-beta.1"
+actix-rt = "2.0.0-beta.1"
+actix-codec = "0.3.0-beta.1"
+actix-utils = "3.0.0-beta.1"
 
 log = "0.4"
 num_cpus = "1.13"
